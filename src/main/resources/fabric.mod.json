@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "totemautoequip",
+  "version": "${version}",
+  "name": "Totem Auto Equip",
+  "description": "เปิดกระเป๋า (E) แล้วระบบจะดึง Totem of Undying ไปใส่มือซ้าย (offhand) ให้อัตโนมัติ",
+  "authors": [
+    "You"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.totemswap.totemautoequip.TotemAutoEquipClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
